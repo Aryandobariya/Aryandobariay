@@ -1,0 +1,14 @@
+@media (min-width:768px){
+    
+    header .contenar-p{
+        padding: 10px 0px;
+    } 
+    header .contenar-flex .nav{
+        display: none;
+        
+        
+    }
+    header .contenar-flex .theme button{
+       display: block;
+    }
+}

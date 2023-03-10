@@ -1,0 +1,47 @@
+@media (max-width:576px) {
+    .navbar .contenar{
+        margin: 0px 60px;
+    }
+    /* ================================navbar css================================= */
+.navbar .contenar-flex .nav{
+   flex: 1;
+   display: none;
+}
+.navbar .contenar-flex .moon .btn-1{
+    display: block;
+}
+/* <!-- ============================ABOUT============================ --> */
+
+.ABOUT .contenar-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/* <!-- ===================================WHAT-page=============================== --> */
+.WHAT .grid{
+    padding: 100px 0px ;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+
+
+}
+.OFFER .grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+/* ============================Book========================== */
+.Book .contenar-p{
+    padding: 40px 0px;
+}
+.Book .contenar-flex{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+}
+/* =====================counting====================== */
+.counting .count-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+}

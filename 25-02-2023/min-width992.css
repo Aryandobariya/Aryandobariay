@@ -1,0 +1,48 @@
+@media (min-width:992px) {
+    .contenar {
+        margin: 0px 40px;
+    }
+
+    /*========= navbar css =========*/
+   
+
+    header .contenar-flex .nav {
+        display: block;
+    }
+
+    header .contenar-flex .theme button {
+        display: none;
+    }
+
+    header .contenar-flex .nav ul a {
+        color: azure;
+        font-size: 20px;
+    }
+
+    header .contenar-flex .logo a {
+        color: black;
+        font-size: 50px;
+
+    }
+    header .contenar .contenar-flex ul{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    /*================================ ABOUT US=================================== */
+    .ABOUT_US .contenar-flex{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    /*============================== WHAT WE DO =================================*/
+
+    .WHAT_WE_DO .contenar-flex {
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+
+        align-items: center;
+    }
+   
+}

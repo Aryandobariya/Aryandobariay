@@ -1,0 +1,42 @@
+@media (min-width:992px) {
+    .navbar .contenar{
+        margin: 0px 120px;
+    }
+    
+    /* ================================navbar css================================= */
+    .navbar .contenar-flex .nav{
+        flex: 1;
+        display: block;
+     }
+     .navbar .contenar-flex .moon .btn-1{
+         display: none;
+     }
+     .navbar .contenar{
+         margin: 0px 100px;
+     }
+       /* <!-- ===================================WHAT-page=============================== --> */
+    .WHAT .grid{
+        padding: 100px 0px ;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+    .OFFER .grid-2{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    /* ============================Book========================== */
+    .Book .contenar-p{
+        padding: 80px 0px;
+    }
+    .Book .contenar-flex{
+        display: flex;
+        flex-direction:row;
+        gap: 20px;
+    }
+    /* =====================counting====================== */
+.counting .count-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+}

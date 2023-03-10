@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            height: 200px;
+            width: 200px;
+            border-top: 2px solid black;
+            border-bottom: 2px solid greenyellow;
+            border-left: 2px solid brown;
+            border-right: 2px solid goldenrod;
+            border-radius: 50%;
+            animation: loder1s ease infinite;
+            display: grid;
+            place-content: center;
+            margin: 200px auto;
+
+        }
+
+        .mainsub {
+            height: 150px;
+            width: 150px;
+            border-top: 2px solid black;
+            border-bottom: 2px solid greenyellow;
+            border-left: 2px solid brown;
+            border-right: 2px solid goldenrod;
+            border-radius: 50%;
+            animation: loder 1s ease infinite;
+            display: grid;
+            place-content: center;
+
+        }
+
+        .sub {
+            height: 100px;
+            width: 100px;
+            border-top: 2px solid black;
+            border-bottom: 2px solid greenyellow;
+            border-left: 2px solid brown;
+            border-right: 2px solid goldenrod;
+            border-radius: 50%;
+            animation: loder1 1s ease infinite;
+            display: grid;
+            place-content: center;
+
+        }
+        @keyframes loder {
+            0%{transform:rotate(0deg);
+
+            }
+            100%{transform: rotate(360deg);
+
+            }
+        }
+        @keyframes loder1 {
+            0%{
+                transform: scaleX(0);
+            }
+            100%{
+                transform: scaleX(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="mainsub">
+            <div class="sub"></div>
+        </div>
+    </div>
+</body>
+
+</html>

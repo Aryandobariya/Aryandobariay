@@ -1,0 +1,39 @@
+@media (max-width:576px) {
+    .contenar {
+        margin: 0px 40px;
+    }
+
+    /*========= navbar css =========*/
+    header .contenar-p {
+        padding: 10px 0px;
+    }
+
+    header .contenar-flex .nav {
+        display: none;
+    }
+
+    header .contenar-flex .theme button {
+        display: block;
+    }
+
+    /*================================ ABOUT US=================================== */
+    .ABOUT_US .contenar-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*============================== WHAT WE DO =================================*/
+
+    .WHAT_WE_DO .contenar-flex {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        text-align: center;
+    }
+
+
+
+}

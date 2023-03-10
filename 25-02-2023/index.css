@@ -1,0 +1,284 @@
+/*=========== coman css =========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+   background-color: rgba(0, 62, 62, 0.799);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.contenar{
+    margin: 0px 80px;
+}
+/*========= navbar css =========*/
+header .contenar-p{
+    padding: 20px 0px;
+}
+header .contenar-flex{
+    display: flex;
+    align-items: center;
+}
+header .contenar-flex .logo{
+    flex: 1;
+}
+header .contenar-flex .logo span{
+    color: yellowgreen;
+
+}
+header .contenar-flex .logo a{
+    color: rgb(11, 10, 10);
+}
+header .contenar-flex h1{
+    font-size: 40px;
+}
+
+header .contenar-flex .nav{
+    flex: 1;
+    
+    
+}
+header .contenar-flex .nav ul  a{
+    color: rgb(11, 11, 11);
+   
+}
+header .contenar-flex .nav ul  a:hover{
+    color: yellow;
+}
+header .contenar-flex .nav ul  .home{
+    color: rgb(186, 239, 79);
+}
+header .contenar .contenar-flex ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+header .contenar-flex .serch{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    transition: 1s all ease;
+   
+    
+}
+header .contenar-flex .serch:hover{
+    color: white;
+    background-color: yellow;
+    
+}
+header .contenar-flex .theme {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    
+}
+header .contenar-flex .theme button{
+    height: 40px;
+    width: 40px;
+   display: none;
+   background:transparent;
+   border: 5px solid black;
+   border-radius: 5px;
+   background-color: #ffdc22;
+}
+/* =================home-page================ */
+.home-page{
+    background-image: url(./banner3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    
+}
+.home-page::after{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.66);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+}
+.home-page .home-page-p{
+    padding: 150px 0px;
+}
+.home-page .contenae{
+    margin: 0px 80px;
+}
+.home-page .home-page-p .home-content{
+    color: white;
+    text-align: center;
+}
+.home-page .home-page-p .home-content p{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.home-page .home-page-p .home-content h1{
+    font-size: 60px;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+
+}
+.home-page .home-page-p .home-content .btn1{
+    height: 49px;
+    width: 130px;
+    background-color: inherit;
+    border: 2px solid rgb(255, 247, 247);
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 1s all ease;
+    color: white;
+}
+.home-page .home-page-p .home-content .btn1:hover{
+    background-color: white;
+    color: #ffdc22;
+}
+/*================================ ABOUT US=================================== */
+.ABOUT_US .contenar-p {
+    padding: 100px 0px;
+}
+.ABOUT_US .contenar {
+    margin: 0px 80px;
+}
+.ABOUT_US .contenar-flex{
+    display: flex;
+    gap: 20px;
+}
+.ABOUT_US .contenar-flex .left-img{
+    flex: 1;
+}
+.ABOUT_US .contenar-flex .left-img img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.ABOUT_US .contenar-flex .right-text{
+    flex: 1;
+    display: grid;
+    place-content: center;
+}
+.ABOUT_US .contenar-flex .right-text p{
+    color: #ffdc22;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.ABOUT_US .contenar-flex .right-text .Designing{
+    color: rgb(10, 10, 10);
+    font-size: 50px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    color: rgb(28, 27, 27);
+}
+.ABOUT_US .contenar-flex .right-text h6{
+    font-size: 30px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ABOUT_US .contenar-flex .right-text .btn2{
+    height: 50px;
+    width: 160px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    background-color: inherit;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.5s all ease;
+}
+.ABOUT_US .contenar-flex .right-text .btn2:hover{
+    color: white;
+    background-color: #ffdc22;
+}
+/*============================== WHAT WE DO =================================*/
+.WHAT_WE_DO{
+    background-color:#dde0ec;
+}
+
+.WHAT_WE_DO .contenar-p{
+    padding: 50px;
+}
+.WHAT_WE_DO .contenar-flex{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.WHAT_WE_DO .contenar-flex .right-text{
+    flex: 1;
+}
+ .h5{
+    font-size: 20px ;
+    color: #ffdc22;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.WHAT_WE_DO .contenar-flex .right-texth1{
+    color:rgb(20, 19, 19);
+    font-size: 30px;
+    
+}
+.WHAT_WE_DO .contenar-flex .right-text{
+    flex: 3;
+    padding: 0px 50px;
+}
+.lorem{
+    line-height: 25px;
+    color: gray;
+    letter-spacing: 1px;
+}
+.WHAT_WE_DO .grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 100px 0px;
+
+}
+.WHAT_WE_DO .grid .box-1{
+    border-radius: 10px;
+    background-color: white;
+    padding: 40px;
+    transition: 1s all ease;
+}
+
+.WHAT_WE_DO .grid .box-1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 2px 3px 2px gray;
+
+}
+.WHAT_WE_DO .grid .box-1{
+    padding: 20px 0px;
+
+}
+.WHAT_WE_DO .grid .box-1 span{
+    font-size: 35px;
+    color:#4b3f03;
+}
+.WHAT_WE_DO .grid .text h2{
+    padding: 10px 0px;
+}
+.WHAT_WE_DO .grid .text h2 a{
+    color: #171717;
+    font-weight: 900;
+}
+.WHAT_WE_DO .grid.text h2 a:hover{
+    color: #4b3f03;
+}
+.WHAT_WE_DO .grid.text .text p{
+    color: gray;
+}
+

@@ -1,0 +1,26 @@
+@media (min-width:768px) {
+     /* <!-- ============================ABOUT============================ --> */
+     .ABOUT .contenar .contenar-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+      /* <!-- ===================================WHAT-page=============================== --> */
+      .WHAT .grid{
+        padding: 100px 0px ;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .OFFER .grid-2{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+  }
+  /* =====================counting====================== */
+.counting .count-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+    
+}

@@ -1,0 +1,9 @@
+@media (min-width:1200px) {
+    /* <!-- ============================ABOUT============================ --> */
+    .ABOUT .contenar .contenar-flex{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    
+}

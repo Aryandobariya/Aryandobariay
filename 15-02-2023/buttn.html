@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+        
+        a{text-decoration: none;
+            color: rgb(12, 12, 12);
+            font-size: 50px;
+
+        }
+        .one::before{
+            content: "";
+
+        }.one::after{
+            content: "";
+            height: 2px;
+            width: 150px;
+            background-color: red;
+            display: block;
+            transform: scaleX(0);
+            transition: 1s all ease;
+        }
+        .one:hover::after{
+            transform: scaleX(0.5);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="sub">
+        <a href="" class="one">hello</a>
+        <a href="" class="one">hello</a>
+    </div>
+    
+</body>
+</html>
